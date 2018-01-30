@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Columbus</string>
+    <string name="spinner_title">Click me !!</string>
+    <string-array name="alphabets">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is Home Fragment !!</string>
+    <string name="hello_fragment">This is Another Fragment !!</string>
+</resources>

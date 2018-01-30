@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.croma.columbus.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="113dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_orange_light"
+            android:prompt="@string/spinner_title"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:text=" Hey There !!"
+            android:textAlignment="center"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+   <fragment
+       android:name="com.example.croma.columbus.Fragment_home"
+       android:id="@+id/Fraggy"
+       android:layout_width="match_parent"
+       android:layout_margin="20dp"
+       android:layout_height="match_parent">
+
+   </fragment>
+
+
+
+</LinearLayout>
